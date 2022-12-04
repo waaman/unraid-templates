@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>vnstat</Name>
+  <Repository>vergoh/vnstat</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>Tools: Network:Other</Category>
+  <WebUI>http://[IP]:8685/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670162831</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="HTTP_PORT" Target="HTTP_PORT" Default="8685" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8685</Config>
+  <Config Name="localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
+  <Config Name="timezone" Target="/etc/timezone" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/timezone</Config>
+  <Config Name="Stats" Target="/var/lib/vnstat" Default="/mnt/user/appdata/vnstat/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/vnstat/</Config>
+</Container>
