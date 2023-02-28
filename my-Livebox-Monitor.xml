@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Livebox-Monitor</Name>
+  <Repository>waaman/liveboxmonitor:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:6080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://camo.githubusercontent.com/2eb6d517544c7c8da153520f409834b4fb5820fd03d1944b51f20231246be3b8/687474703a2f2f702d646f722e6769746875622e696f2f4c697665626f784d6f6e69746f722f646f63732f446f635f41707049636f6e2e706e67</Icon>
+  <ExtraParams>--dns=192.168.1.1</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1677610062</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web UI" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6080</Config>
+</Container>
